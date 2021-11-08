@@ -48,6 +48,11 @@ z-index: 3;
         display: block;
         text-align: center;
     }
+
+    &__botonCiudadano:hover {
+        background-color: white;
+        color: $colorTree;
+    }
         
     &__botonEmprendedor {
         position: relative;
@@ -61,5 +66,42 @@ z-index: 3;
         text-align: center;
     }
 
+    &__botonEmprendedor:hover {
+        background-color: white;
+        color: $colorCalipso;
+    }
+
+}
+
+// Tarjetas
+
+.tarjetas {
+
+width: 80%;
+height: 100vh;
+
+    &__caja{
+        width: 200px;
+        height: 300px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    &__cajaImg {
+display: block;
+    }
+
+    &__img {
+        width: 200px;
+    }
+}
+
+// Footer 
+
+.pie {
+    background-color: $colorBlue;
 }
 

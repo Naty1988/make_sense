@@ -64,6 +64,11 @@
   text-align: center;
 }
 
+.hero__botonCiudadano:hover {
+  background-color: white;
+  color: #70AF90;
+}
+
 .hero__botonEmprendedor {
   position: relative;
   display: inline-block;
@@ -74,5 +79,41 @@
   border-radius: 4px;
   margin: auto;
   text-align: center;
+}
+
+.hero__botonEmprendedor:hover {
+  background-color: white;
+  color: #196C84;
+}
+
+.tarjetas {
+  width: 80%;
+  height: 100vh;
+}
+
+.tarjetas__caja {
+  width: 200px;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tarjetas__cajaImg {
+  display: block;
+}
+
+.tarjetas__img {
+  width: 200px;
+}
+
+.pie {
+  background-color: #0C3944;
 }
 /*# sourceMappingURL=main.css.map */
