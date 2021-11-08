@@ -3,27 +3,63 @@
 // Menu - Nav
 
 .menu {
+    position: fixed;
+    width: 100%;
+z-index: 3;
     &__img {
         width: 150px;
-    }
+     }
 }
 
 // Hero
 
 .hero {
+    padding-top:50px;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+
+    &__back {
+        position: absolute;
+        min-height: 100vh;
+        align-items: center;
+        z-index: -2;
+    }
 
     &__txBroom {
+        position: relative;
         color: $colorBroom;
+        display: block;
     }
 
     &__botonCiudadano {
+        position: relative;
+        display: inline-block;
         background-color: $colorTree;
         color: white;
+        height: 50px;
+        width: 200px;
+        border-radius: 4px;
+        display: block;
+        text-align: center;
     }
         
     &__botonEmprendedor {
+        position: relative;
+        display: inline-block;
         background-color: $colorCalipso;
         color: white;
+        height: 50px;
+        width: 200px;
+        border-radius: 4px;  
+        margin: auto;
+        text-align: center;
     }
+
 }
 
