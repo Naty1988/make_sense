@@ -1,0 +1,29 @@
+@import "./variables";
+
+// Menu - Nav
+
+.menu {
+    &__img {
+        width: 150px;
+    }
+}
+
+// Hero
+
+.hero {
+
+    &__txBroom {
+        color: $colorBroom;
+    }
+
+    &__botonCiudadano {
+        background-color: $colorTree;
+        color: white;
+    }
+        
+    &__botonEmprendedor {
+        background-color: $colorCalipso;
+        color: white;
+    }
+}
+
