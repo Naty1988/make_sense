@@ -5,6 +5,7 @@
           box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 
 .menu {
@@ -18,9 +19,10 @@
 }
 
 .hero {
-  padding-top: 50px;
   color: white;
   width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
   min-height: 100vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -46,10 +48,46 @@
   z-index: -2;
 }
 
+.hero__video {
+  width: 100vw;
+}
+
 .hero__txBroom {
   position: relative;
   color: #FFF30D;
-  display: block;
+  top: 0px;
+  font-size: 4rem;
+  font-style: bold;
+  font-weight: bold;
+}
+
+.hero__txWhite {
+  position: relative;
+  top: 130px;
+  left: 200px;
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero__parrafo {
+  position: relative;
+  top: 150px;
+  left: 200px;
+  color: white;
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 50vw;
+}
+
+.hero__cajaBoton {
+  position: relative;
+  top: 200px;
+  left: 200px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .hero__botonCiudadano {
@@ -57,11 +95,33 @@
   display: inline-block;
   background-color: #70AF90;
   color: white;
-  height: 50px;
-  width: 200px;
-  border-radius: 4px;
-  display: block;
+  height: 70px;
+  width: 250px;
+  border-radius: 6px;
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+}
+
+.hero__botonCiudadano p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.hero__botonCiudadano:hover {
+  background-color: white;
+  color: #70AF90;
 }
 
 .hero__botonEmprendedor {
@@ -69,10 +129,91 @@
   display: inline-block;
   background-color: #196C84;
   color: white;
-  height: 50px;
-  width: 200px;
-  border-radius: 4px;
+  height: 70px;
+  width: 250px;
+  border-radius: 6px;
   margin: auto;
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+}
+
+.hero__botonEmprendedor p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+.hero__botonEmprendedor:hover {
+  background-color: white;
+  color: #196C84;
+}
+
+.tarjeta {
+  background-color: white;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tarjeta__titulo {
+  display: block;
+  background-color: white;
+  height: 10vh;
+}
+
+.tarjeta__titulo h2 {
+  font-size: 3rem;
+  color: #0C3944;
+}
+
+.tarjeta__img {
+  width: 150px;
+}
+
+.tarjeta__cajaDiv {
+  height: 175px;
+}
+
+.tarjeta__caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+}
+
+.tarjeta__caja p {
+  font-size: 2rem;
+  color: #0C3944;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pie {
+  background-color: #0C3944;
+  height: 30vh;
 }
 /*# sourceMappingURL=main.css.map */

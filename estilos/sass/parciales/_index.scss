@@ -14,9 +14,10 @@ z-index: 3;
 // Hero
 
 .hero {
-    padding-top:50px;
+    // padding-top:50px;
     color: white;
     width: 100%;
+    object-fit: cover;
     min-height: 100vh;
     justify-content: center;
     display: flex;
@@ -31,10 +32,44 @@ z-index: 3;
         z-index: -2;
     }
 
+    &__video {
+        width: 100vw;
+    }
+
     &__txBroom {
         position: relative;
-        color: $colorBroom;
-        display: block;
+        color: #FFF30D;
+        top: 0px;
+        font-size: $letraTituloMuyGrande;
+        font-style: bold;
+        font-weight: bold;
+    }
+
+    &__txWhite {
+        position: relative;
+        top: 130px;
+        left: 200px;
+        color: white;
+        font-size: $letraTituloMuyGrande;
+        font-weight: bold;
+    }
+
+    &__parrafo {
+        position: relative;
+        top: 150px;
+        left: 200px;
+        color: white;
+        font-size: $letraSubtitulo;
+        font-style: italic;
+        width: 50vw;
+    }
+
+    &__cajaBoton {
+        position: relative;
+        top: 200px;
+        left: 200px;
+        width: 50%;
+        display: flex;
     }
 
     &__botonCiudadano {
@@ -42,11 +77,27 @@ z-index: 3;
         display: inline-block;
         background-color: $colorTree;
         color: white;
-        height: 50px;
-        width: 200px;
-        border-radius: 4px;
-        display: block;
+        height: 70px;
+        width: 250px;
+        border-radius: 6px;
         text-align: center;
+        font-size: $letraBotonGrande;
+        font-weight: bold;
+        box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    }
+
+    &__botonCiudadano:hover {
+        background-color: white;
+        color: $colorTree;
     }
         
     &__botonEmprendedor {
@@ -54,12 +105,81 @@ z-index: 3;
         display: inline-block;
         background-color: $colorCalipso;
         color: white;
-        height: 50px;
-        width: 200px;
-        border-radius: 4px;  
+        height: 70px;
+        width: 250px;
+        border-radius: 6px;  
         margin: auto;
         text-align: center;
+        font-size: $letraBotonGrande;
+        font-weight: bold;
+        box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+
+        p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
     }
 
+    &__botonEmprendedor:hover {
+        background-color: white;
+        color: $colorCalipso;
+    }
+}
+
+// Tarjetas
+
+.tarjeta {
+
+    background-color: white;
+    height:80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__titulo {
+        display: block;
+        background-color: white;
+        height: 10vh;
+        
+        h2{
+            font-size: $letraTituloGrande;
+            color: $colorBlue;
+        }
+    }
+    
+    &__img {
+        width: 150px;
+    }
+
+    &__cajaDiv {
+        height: 175px;
+    }
+
+    &__caja {
+        display: flex;
+        align-items: center;
+        height: 350px;
+        box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+    
+        p {
+            font-size: $letraTitulo;
+            color: $colorBlue;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}
+
+// Footer 
+
+.pie {
+    background-color: $colorBlue;
+    height: 30vh;
 }
 
