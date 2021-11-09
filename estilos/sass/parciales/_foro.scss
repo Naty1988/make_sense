@@ -1,0 +1,12 @@
+@import "./variables";
+
+.foro {
+    width: 100vw;
+    background-color: yellow;
+    
+    &__titulo {
+        background-color: blue;
+    width: 100px;
+    border-radius: 30px;
+    }
+}
