@@ -408,7 +408,7 @@
   position: relative;
   top: -300px;
   left: 750px;
-  color: orange;
+  color: #F3976B;
   font-size: 5rem;
   font-style: bold;
   font-weight: bold;
@@ -563,20 +563,18 @@
 
 .hero3__titulo {
   position: relative;
-  top: -300px;
-  left: 750px;
-  color: orange;
+  top: -250px;
+  color: #C1E94E;
   font-size: 5rem;
   font-style: bold;
   font-weight: bold;
   width: 500px;
-  text-align: end;
+  left: 50px;
 }
 
 .hero3__txWhite {
   position: relative;
   top: 0;
-  left: 50%;
   width: 50%;
   height: 300px;
 }
@@ -588,12 +586,10 @@
 .hero3__parrafo {
   position: relative;
   top: -250px;
-  left: 850px;
   color: white;
   font-size: 1.5rem;
-  font-style: italic;
   width: 400px;
-  text-align: end;
+  left: 50px;
 }
 
 .hero3__cajaBoton {
@@ -611,17 +607,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: white;
-  color: grey;
-  height: 90px;
-  width: 400px;
-  border-radius: 10px;
+  background-color: #C1E94E;
+  color: black;
+  height: 200px;
+  width: 300px;
+  border-radius: 100px;
   margin: auto;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 5rem;
   font-weight: bold;
-  top: -550px;
-  left: -400px;
+  top: -570px;
+  left: 300px;
 }
 
 .hero3__btn img {
@@ -635,14 +631,14 @@
   margin: auto;
 }
 
-.hero3__botonEmprendedor:hover {
+.hero3__btn:hover {
   background-color: white;
-  color: #196C84;
+  color: #C1E94E;
 }
 
 .pasos2 {
   background-color: white;
-  height: 80vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -652,6 +648,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 150px;
 }
 
 .pasos2__caja {
@@ -678,5 +675,50 @@
   text-align: center;
   border-top: solid 1px #9B084F;
   padding-top: 20px;
+}
+
+.calendario {
+  height: 100vh;
+}
+
+.calendario__titulo {
+  height: 100px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+}
+
+.calendario__titulo strong {
+  color: palevioletred;
+}
+
+.calendario__caja {
+  width: 300px;
+  height: 300px;
+  border: solid 2px blue;
+  margin: auto;
+}
+
+.calendario__agenda1 {
+  color: blueviolet;
+  font-size: 1.5rem;
+}
+
+.calendario__agenda2 {
+  color: blueviolet;
+  font-size: 1.5rem;
+}
+
+.calendario__agenda3 {
+  color: blueviolet;
+  font-size: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */
