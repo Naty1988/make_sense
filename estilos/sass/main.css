@@ -195,8 +195,16 @@
   height: 100%;
 }
 
+.hero__botonCiudadano a {
+  text-decoration: none;
+  color: white;
+}
+
 .hero__botonCiudadano:hover {
   background-color: white;
+}
+
+.hero__botonCiudadano:hover a {
   color: #70AF90;
 }
 
@@ -230,8 +238,16 @@
   height: 100%;
 }
 
+.hero__botonEmprendedor a {
+  text-decoration: none;
+  color: white;
+}
+
 .hero__botonEmprendedor:hover {
   background-color: white;
+}
+
+.hero__botonEmprendedor:hover a {
   color: #196C84;
 }
 
@@ -618,6 +634,9 @@
   font-weight: bold;
   top: -570px;
   left: 300px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
 }
 
 .hero3__btn img {
@@ -634,6 +653,9 @@
 .hero3__btn:hover {
   background-color: white;
   color: #C1E94E;
+  box-shadow: 2px 6px 13px -7px #c1e94e;
+  -webkit-box-shadow: 2px 6px 13px -7px #c1e94e;
+  -moz-box-shadow: 2px 6px 13px -7px #c1e94e;
 }
 
 .pasos2 {
@@ -705,20 +727,25 @@
   height: 300px;
   border: solid 2px blue;
   margin: auto;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .calendario__agenda1 {
-  color: blueviolet;
+  color: #9B084F;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .calendario__agenda2 {
-  color: blueviolet;
+  color: #C62E43;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .calendario__agenda3 {
-  color: blueviolet;
+  color: #E36164;
   font-size: 1.5rem;
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=main.css.map */
