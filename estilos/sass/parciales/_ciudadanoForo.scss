@@ -1,11 +1,12 @@
 @import "./variables";
 
+
 .blanco {
     height: 100px;
     width: 100%;
 }
 
-.hero2 {
+.hero3 {
     
     width: 100vw;
     height: 100vh;
@@ -16,23 +17,23 @@
     display: inline-block;
     
         &__back {
-            position: absolute;
-            min-height: 40vh;
-            align-items: center;
-            width: 100vw;
+        position: absolute;
+        min-height: 40vh;
+        align-items: center;
+        width: 100vw;
               
-            img {
-                height: 400px;
-                width: 100vw;
-                overflow: hidden;
+        img {
+            height: 400px;
+            width: 100vw;
+            overflow: hidden;
             }
-        }   
+        }
     
         &__titulo {
             position: relative;
             top: -300px;
             left: 750px;
-            color: $colorFlame;
+            color: $colorNaraja;
             font-size: $letraTituloMuyGrande;
             font-style: bold;
             font-weight: bold;
@@ -43,7 +44,7 @@
         &__txWhite {
             position: relative;
             top: 0;
-            left: 50%;
+            right: 50%;
             width: 50%;
             height: 300px;
 
@@ -70,8 +71,7 @@
             width: 50%;
             display: flex;
         }
-
-        
+       
         &__btn {
             position: relative;
             display: flex;
@@ -106,32 +106,34 @@
 
 // Pasos
 
-.pasos {
+.pasos2 {
 
     background-color: white;
-    height:80vh;
+    height:100vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 150px;
          
         &__caja {
-        display: flex;
-        align-items: center;
-        height: 350px;
-        width: 400px;
-        border: none;
+            display: flex;
+            align-items: center;
+            height: 350px;
+            width: 400px;
+            border: none;
+            }
+
+        &__nro {
+            font-size: 6rem;
+            color: $colorCerise;
+            font-weight: bold;
         }
-      &__nro{
-          font-size: 6rem;
-          color: $colorBlue;
-          font-weight: bold;
-      }
 
         &__txt {
             font-size: $letraTitulo;
             color: $colorBlue;
             text-align: center;
-            border-top: solid 1px $colorBlue;
+            border-top: solid 1px $colorCerise;
             padding-top: 20px;
         }
 }

@@ -522,4 +522,161 @@
   border-top: solid 1px #0C3944;
   padding-top: 20px;
 }
+
+.blanco {
+  height: 100px;
+  width: 100%;
+}
+
+.hero3 {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline-block;
+}
+
+.hero3__back {
+  position: absolute;
+  min-height: 40vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.hero3__back img {
+  height: 400px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.hero3__titulo {
+  position: relative;
+  top: -300px;
+  left: 750px;
+  color: orange;
+  font-size: 5rem;
+  font-style: bold;
+  font-weight: bold;
+  width: 500px;
+  text-align: end;
+}
+
+.hero3__txWhite {
+  position: relative;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 300px;
+}
+
+.hero3__txWhite img {
+  height: 500px;
+}
+
+.hero3__parrafo {
+  position: relative;
+  top: -250px;
+  left: 850px;
+  color: white;
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 400px;
+  text-align: end;
+}
+
+.hero3__cajaBoton {
+  position: relative;
+  top: 200px;
+  left: 200px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero3__btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  color: grey;
+  height: 90px;
+  width: 400px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  top: -550px;
+  left: -400px;
+}
+
+.hero3__btn img {
+  width: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-left: 20px;
+}
+
+.hero3__btn p {
+  margin: auto;
+}
+
+.hero3__botonEmprendedor:hover {
+  background-color: white;
+  color: #196C84;
+}
+
+.pasos2 {
+  background-color: white;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pasos2__caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  width: 400px;
+  border: none;
+}
+
+.pasos2__nro {
+  font-size: 6rem;
+  color: #9B084F;
+  font-weight: bold;
+}
+
+.pasos2__txt {
+  font-size: 2rem;
+  color: #0C3944;
+  text-align: center;
+  border-top: solid 1px #9B084F;
+  padding-top: 20px;
+}
 /*# sourceMappingURL=main.css.map */
