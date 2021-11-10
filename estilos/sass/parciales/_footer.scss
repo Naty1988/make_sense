@@ -1,1 +1,42 @@
 @import "./variables";
+// Footer 
+
+.pie {
+    background-color: $colorBlue;
+    height: 40vh;
+    
+    h4 {
+        color: white;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+
+    p {
+        color: white;
+        font-size: $letraChica;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    i {
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        padding-right: 20px;
+    }
+
+    img {
+        width: 250px;
+    }
+
+    &__logo {
+        margin:auto;
+    }
+
+    &__redes {
+        text-align: center;
+    }
+}

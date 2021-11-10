@@ -1,1 +1,42 @@
 @import "./variables";
+
+// Menu - Nav
+
+.menu {
+    position: fixed;
+    width: auto;
+    z-index: 3;
+    margin-right: 20px;
+
+    &__img {
+        width: 150px;
+    }
+     
+    &__alineado {
+        width: 100vw;
+
+        a{
+        padding-left: 100px;
+        }
+    }
+       
+    &__izq {
+        justify-content: flex-end;
+        width: 100%;
+
+        a { 
+            font-weight: bold;
+            color: $colorBlue;
+        }
+
+        img {
+            width: 10px;
+            
+        }    
+    }
+    
+    &__frijol {
+        display: flex;
+        align-items: center;
+    }
+}

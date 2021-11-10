@@ -1,0 +1,137 @@
+@import "./variables";
+
+.blanco {
+    height: 100px;
+    width: 100%;
+}
+
+.hero2 {
+    
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-block;
+    
+        &__back {
+        position: absolute;
+        min-height: 40vh;
+        align-items: center;
+        width: 100vw;
+              
+        img {
+            height: 400px;
+            width: 100vw;
+            overflow: hidden;
+        }
+    }
+    
+&__titulo {
+    position: relative;
+    top: -300px;
+    left: 750px;
+    color: $colorNaraja;
+    font-size: $letraTituloMuyGrande;
+    font-style: bold;
+    font-weight: bold;
+    width: 500px;
+    text-align: end;
+    }
+
+    &__txWhite {
+        position: relative;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        height: 300px;
+
+        img {
+            height: 500px;
+        }  
+    }
+
+    &__parrafo {
+        position: relative;
+        top: -250px;
+        left: 850px;
+        color: white;
+        font-size: $letraSubtitulo;
+        font-style: italic;
+        width: 400px;
+        text-align: end;
+    }
+
+    &__cajaBoton {
+        position: relative;
+        top: 200px;
+        left: 200px;
+        width: 50%;
+        display: flex;
+    }
+
+        
+    &__btn {
+        position: relative;
+        display: flex;
+        background-color: white;
+        color: grey;
+        height: 90px;
+        width: 400px;
+        border-radius: 10px;  
+        margin: auto;
+        text-align: center;
+        font-size: $letraSubtitulo;
+        font-weight: bold;
+        top: -550px;
+        left: -400px;
+
+        img {
+            width: 90px;
+            object-fit: contain;
+            padding-left: 20px;
+        }
+        
+        p {
+            margin: auto;
+        }
+      }
+
+    &__botonEmprendedor:hover {
+        background-color: white;
+        color: $colorCalipso;
+    }
+}
+
+// Pasos
+
+.pasos {
+
+    background-color: white;
+    height:80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+         
+        &__caja {
+        display: flex;
+        align-items: center;
+        height: 350px;
+        width: 400px;
+        border: none;
+        }
+      &__nro{
+          font-size: 6rem;
+          color: $colorBlue;
+          font-weight: bold;
+      }
+
+        &__txt {
+            font-size: $letraTitulo;
+            color: $colorBlue;
+            text-align: center;
+            border-top: solid 1px $colorBlue;
+            padding-top: 20px;
+        }
+}
