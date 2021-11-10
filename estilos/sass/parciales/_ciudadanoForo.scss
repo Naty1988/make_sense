@@ -82,6 +82,10 @@
             font-weight: bold;
             top: -570px;
             left: 300px;
+            box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+            -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        
 
             img {
                 width: 90px;
@@ -97,6 +101,10 @@
         &__btn:hover {
             background-color: white;
             color: $colorAtlantis;
+            box-shadow: 2px 6px 13px -7px rgb(193, 233, 78);
+            -webkit-box-shadow: 2px 6px 13px -7px rgb(193, 233, 78);
+            -moz-box-shadow: 2px 6px 13px -7px rgb(193, 233, 78);
+        
         }
 }
 
@@ -159,24 +167,27 @@
         height: 300px;
         border: solid 2px blue;
         margin: auto;
-    
+        padding-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     &__agenda1 {
-        color: blueviolet;
-        font-size: $letraSubtitulo;
+        color: $colorCerise;
+        font-size: $letraSubtitulo; 
+        margin-bottom: 10px;
     
     }
 
     &__agenda2 {
-        color: blueviolet;
-        font-size: $letraSubtitulo;
+        color: $colorBrick;
+        font-size: $letraSubtitulo; 
+        margin-bottom: 10px;
         
     }
 
     &__agenda3 {
-        color: blueviolet;
+        color: $colorRoman;
         font-size: $letraSubtitulo;
+        margin-bottom: 100px;
     }
 }
-// REVISARA COLORES . AGREGAR VARIABLES. Padding calendario!!
