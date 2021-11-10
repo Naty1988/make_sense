@@ -1,20 +1,8 @@
 @import "./variables";
 
-// Menu - Nav
-
-.menu {
-    position: fixed;
-    width: 100%;
-z-index: 3;
-    &__img {
-        width: 150px;
-     }
-}
-
 // Hero
 
 .hero {
-    // padding-top:50px;
     color: white;
     width: 100%;
     object-fit: cover;
@@ -25,7 +13,7 @@ z-index: 3;
     align-items: center;
     display: inline-block;
 
-    &__back {
+        &__back {
         position: absolute;
         min-height: 100vh;
         align-items: center;
@@ -34,7 +22,10 @@ z-index: 3;
 
     &__video {
         width: 100vw;
+    
     }
+
+
 
     &__txBroom {
         position: relative;
@@ -46,6 +37,7 @@ z-index: 3;
     }
 
     &__txWhite {
+        display: inline;
         position: relative;
         top: 130px;
         left: 200px;
@@ -55,6 +47,7 @@ z-index: 3;
     }
 
     &__parrafo {
+        display: inline;
         position: relative;
         top: 150px;
         left: 200px;
@@ -179,13 +172,22 @@ z-index: 3;
 // Faqs
 
 .faq {
-    height: 100vh;
-    width: 100vw;
+    height: 80vh;
+    width: 70vw;
+    margin: auto;
+
+    &__titulo {
+        height: 100px;
+        width: 80%;
+        font-weight: bold;
+        margin: auto;
+    }
 
     &__caja{
         width: 80%;
         margin: auto;
     }
+
     &__margin {
         margin-bottom: 20px;
         border: solid grey 1px;
@@ -193,15 +195,49 @@ z-index: 3;
         -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
         -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
     }
+
     &__margin0 {
         margin-bottom: 0%;}
+    
+    strong {
+        font-weight: normal;
+    }
+
+    button {
+        font-size: $letraSubtitulo;
+    }
+
+    h3 {
+        font-size: $letraTitulo;
+        font-weight: bold;
+    }
 }
 
 
-// Footer 
+// Contacto
 
-.pie {
-    background-color: $colorBlue;
-    height: 30vh;
+.contacto {
+    height: 20vh;
+    width: 70vw;
+    margin: auto;
+    font-size: $letraSubtitulo;
+    text-align: center;
+
+    p {
+        display: inline;
+    }
+
+    &__btn {
+        background-color: rgb(224, 223, 223);
+        border-radius: 10px;
+        box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        display: inline-block;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+    }
 }
+
 

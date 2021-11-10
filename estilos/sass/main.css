@@ -10,12 +10,86 @@
 
 .menu {
   position: fixed;
-  width: 100%;
+  width: auto;
   z-index: 3;
+  margin-right: 20px;
 }
 
 .menu__img {
   width: 150px;
+}
+
+.menu__alineado {
+  width: 100vw;
+}
+
+.menu__alineado a {
+  padding-left: 100px;
+}
+
+.menu__izq {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.menu__izq a {
+  font-weight: bold;
+  color: #0C3944;
+}
+
+.menu__izq img {
+  width: 10px;
+}
+
+.menu__frijol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pie {
+  background-color: #0C3944;
+  height: 40vh;
+}
+
+.pie h4 {
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.pie p {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.pie a {
+  text-decoration: none;
+  color: white;
+}
+
+.pie i {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  padding-right: 20px;
+}
+
+.pie img {
+  width: 250px;
+}
+
+.pie__logo {
+  margin: auto;
+}
+
+.pie__redes {
+  text-align: center;
 }
 
 .hero {
@@ -62,6 +136,7 @@
 }
 
 .hero__txWhite {
+  display: inline;
   position: relative;
   top: 130px;
   left: 200px;
@@ -71,6 +146,7 @@
 }
 
 .hero__parrafo {
+  display: inline;
   position: relative;
   top: 150px;
   left: 200px;
@@ -213,8 +289,16 @@
 }
 
 .faq {
-  height: 100vh;
-  width: 100vw;
+  height: 80vh;
+  width: 70vw;
+  margin: auto;
+}
+
+.faq__titulo {
+  height: 100px;
+  width: 80%;
+  font-weight: bold;
+  margin: auto;
 }
 
 .faq__caja {
@@ -234,9 +318,41 @@
   margin-bottom: 0%;
 }
 
-.pie {
-  background-color: #0C3944;
-  height: 30vh;
+.faq strong {
+  font-weight: normal;
+}
+
+.faq button {
+  font-size: 1.5rem;
+}
+
+.faq h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contacto {
+  height: 20vh;
+  width: 70vw;
+  margin: auto;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contacto p {
+  display: inline;
+}
+
+.contacto__btn {
+  background-color: #e0dfdf;
+  border-radius: 10px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  text-align: center;
 }
 
 .foro {
@@ -248,5 +364,162 @@
   background-color: blue;
   width: 100px;
   border-radius: 30px;
+}
+
+.blanco {
+  height: 100px;
+  width: 100%;
+}
+
+.hero2 {
+  width: 100vw;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: inline-block;
+}
+
+.hero2__back {
+  position: absolute;
+  min-height: 40vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+}
+
+.hero2__back img {
+  height: 400px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.hero2__titulo {
+  position: relative;
+  top: -300px;
+  left: 750px;
+  color: orange;
+  font-size: 5rem;
+  font-style: bold;
+  font-weight: bold;
+  width: 500px;
+  text-align: end;
+}
+
+.hero2__txWhite {
+  position: relative;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 300px;
+}
+
+.hero2__txWhite img {
+  height: 500px;
+}
+
+.hero2__parrafo {
+  position: relative;
+  top: -250px;
+  left: 850px;
+  color: white;
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 400px;
+  text-align: end;
+}
+
+.hero2__cajaBoton {
+  position: relative;
+  top: 200px;
+  left: 200px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero2__btn {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  color: grey;
+  height: 90px;
+  width: 400px;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  top: -550px;
+  left: -400px;
+}
+
+.hero2__btn img {
+  width: 90px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding-left: 20px;
+}
+
+.hero2__btn p {
+  margin: auto;
+}
+
+.hero2__botonEmprendedor:hover {
+  background-color: white;
+  color: #196C84;
+}
+
+.pasos {
+  background-color: white;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pasos__caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  width: 400px;
+  border: none;
+}
+
+.pasos__nro {
+  font-size: 6rem;
+  color: #0C3944;
+  font-weight: bold;
+}
+
+.pasos__txt {
+  font-size: 2rem;
+  color: #0C3944;
+  text-align: center;
+  border-top: solid 1px #0C3944;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=main.css.map */
