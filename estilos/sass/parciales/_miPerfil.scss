@@ -1,0 +1,39 @@
+@import "./variables";
+
+.formularioDatos {
+width: 70%;
+margin-bottom: 80px;
+
+label {
+    display: block;
+    font-size: $letraNormal;
+    font-weight: bold;
+    padding: 20px 0 7px 0;
+}
+input {
+    height: 50px;
+        width: 300px;
+        font-size: $letraNormal;
+        padding: 20px;
+        border-radius: 3px;
+    border: solid grey 1px;
+}
+    &__finSesion {
+    border: solid 1px orange;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        text-decoration: none;
+    font-size: $letraNormal;
+                color: black;
+    }
+    }
+
+}
