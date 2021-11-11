@@ -1,0 +1,32 @@
+@import "./variables";
+
+// General
+
+.general {
+    height: 70vh;
+}
+
+// Botones
+
+.botones {
+&__btnFormaActivo {
+    background-color: $colorFlame;
+width: 250px;
+height: 80px;
+border-radius: 50px;
+display: flex;
+   justify-content: center;
+margin-right: 40px;
+}
+
+&__btnFormaInactivo {
+    background-color: grey;
+width: 250px;
+height: 80px;
+border-radius: 50px;
+display: flex;
+   justify-content: center;
+margin-right: 40px;
+
+}
+}

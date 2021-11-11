@@ -6,27 +6,41 @@
     &__titulo {
         height: 200px;
         margin: auto;
-        justify-content: center;
+        justify-content: flex-start;
         display: flex;
         align-items: center;
         font-size: $letraTituloGrande;
+        font-weight: bold;
+        padding-top: 50px;
+        padding-left: 200px;
     }
 
-    &__btnForma {
-        background-color: aqua;
+    &__btnFormaActivo {
+        background-color: $colorFlame;
     width: 250px;
     height: 80px;
     border-radius: 50px;
     display: flex;
        justify-content: center;
     margin-right: 40px;
+}
+
+    &__btnFormaInactivo {
+        background-color: grey;
+    width: 250px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+       justify-content: center;
+    margin-right: 40px;
+}
 
     a{
         text-decoration: none;
         font-size: $letraTituloGrande;
         color: white;
     }
-    }
+    
 
     &__alineados {
         width: 70%;
