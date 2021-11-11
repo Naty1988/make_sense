@@ -1,0 +1,45 @@
+@import "./variables";
+
+/*movilidad*/
+.itemsb__fila__txt{
+    text-decoration: none;
+    color: #E36164;
+
+}
+.retob__{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px rgb(37, 37, 37);
+    border-radius: 20px;
+    background-color:#E36164;
+    background-image: linear-gradient( to right, #E36164, rgb(224, 173, 174));
+    margin-left: 10%;
+    margin: 3%;
+}
+.retob__:hover{
+    transform:scale(1.05,1.05);
+}
+.retob__img{
+    display: grid;
+    grid-row: 1/3;
+    background-color: white;
+    align-items: center;
+}
+.retob__titulo{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.retob__fecha{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(37, 37, 37);
+}
+.retob__parrafo{
+    grid-row: 2 span 2;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(37, 37, 37);
+}

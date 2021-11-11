@@ -1,0 +1,45 @@
+@import "./variables";
+
+/*alimentacion sustentable*/
+.itemse__fila__txt{
+    text-decoration: none;
+    color: #70AF90;
+}
+.retoe__{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px rgb(37, 37, 37);
+    border-radius: 20px;
+    background-color:#70AF90;
+    background-image: linear-gradient( to right, #70AF90, rgb(164, 202, 183)); 
+    margin-left: 10%;
+    margin: 3%;
+}
+.retoe__:hover{
+    transform:scale(1.05,1.05);
+}
+.retoe__img{
+    display: grid;
+    grid-row: 1/3;
+    background-color: white;
+    align-content: center;
+}
+.retoe__titulo{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+
+}
+.retoe__fecha{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+.retoe__parrafo{
+    grid-row: 2 span 2;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+}
