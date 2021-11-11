@@ -1558,4 +1558,121 @@
   padding-bottom: 50px;
   padding-top: 20px;
 }
+
+.tituloForoAgua {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.tituloForoAgua__txt {
+  font-size: 5rem;
+  color: white;
+  background-color: #0C3944;
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloForoAgua__img {
+  width: 250px;
+}
+
+.encabezado__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezado__logoEmpresa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.encabezado__reto {
+  background-color: lightblue;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.encabezado__detalle {
+  font-size: 1.5rem;
+}
+
+.encabezado__detalleFecha {
+  color: gray;
+  text-align: center;
+}
+
+.comentario {
+  background-color: lightgreen;
+  border-radius: 20px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.comentario__nombre {
+  color: #0C3944;
+}
+
+.preguntasAgua {
+  padding-top: 20px;
+  background-color: lightskyblue;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.preguntasAgua__pad {
+  margin-bottom: 40px;
+}
+
+.preguntasAgua__bold {
+  font-weight: bold;
+}
+
+.preguntasAgua__pastilla {
+  width: 10px;
+}
+
+.txt__caja {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.txt__btn {
+  background-color: #196C84;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+}
+
+.txt__btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
