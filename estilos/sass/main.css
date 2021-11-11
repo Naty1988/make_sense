@@ -484,6 +484,11 @@
   left: -400px;
 }
 
+.hero2__btn a {
+  text-decoration: none;
+  color: gray;
+}
+
 .hero2__btn img {
   width: 90px;
   -o-object-fit: contain;
