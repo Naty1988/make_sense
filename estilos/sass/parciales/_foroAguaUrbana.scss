@@ -1,0 +1,125 @@
+@import "./variables";
+
+
+.tituloForoAgua {
+width: 80%;
+padding-top: 100px;
+padding-bottom: 100px;
+margin: auto;
+
+&__txt {
+    font-size: $letraTituloMuyGrande;
+    color: white;
+    background-color: $colorBlue;
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+&__img {
+    width: 250px;
+}
+}
+
+.encabezado{
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+    }
+    
+
+       &__logoEmpresa {
+        object-fit: cover;
+        width: 250px;
+    
+    
+ }
+
+ &__reto {
+     background-color: lightblue;
+     border-radius: 30px;
+     font-size: $letraSubtitulo;
+     height: 100%;
+     text-align: center;
+    
+ }
+ &__detalle {
+    font-size: $letraSubtitulo;
+ }
+ &__detalleFecha {
+    color:gray;
+    text-align: center;
+ }
+}
+
+.comentario {
+    background-color: lightgreen;
+    border-radius: 20px;
+    height: 100px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: $letraNormal;
+
+    &__nombre {
+        color: $colorBlue;
+    }
+    }
+
+    .preguntasAgua {
+padding-top: 20px;
+background-color: lightskyblue;
+border-radius: 30px;
+font-size: $letraNormal;
+height: 100%;
+
+
+&__pad {
+    margin-bottom: 40px;
+}
+        &__bold {
+          font-weight: bold;
+        }
+
+        &__pastilla {
+           width: 10px;    
+        }
+    }
+
+    .txt {
+        
+      &__caja {
+          width: 100%;
+          height: 200px;
+          box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        margin-bottom: 20px;
+        
+      } 
+      &__btn {
+          background-color: $colorCalipso;
+          width: 120px;
+          height: 40px;
+          border-radius: 50px;          
+          text-align: center;
+          box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+        padding-bottom: 20px;
+       
+          a {
+              text-decoration: none;
+              color: white;
+          font-size: $letraSubtitulo;
+          font-weight: bold;
+          }
+      }
+      
+    }
+
+
