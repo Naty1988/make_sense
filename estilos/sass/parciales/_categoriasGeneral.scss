@@ -1,0 +1,56 @@
+.foro__ {
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+
+}
+.items__fila{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+}
+
+.items__filados{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto  auto auto;
+    grid-template-rows: auto;
+
+}
+.items__fila__img{
+    width: auto;
+    display: grid;
+    justify-items: center;
+}
+
+.items__fila__txt{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.692);
+}
+
+.titulo__{
+    margin: 10%;
+
+
+}
+.titulo__reto{
+    text-align: left;
+    font-size: 40px;
+
+}
+
+.categoriasImg {
+    width: 200px;
+}
+
+.centrado {
+    text-align: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}

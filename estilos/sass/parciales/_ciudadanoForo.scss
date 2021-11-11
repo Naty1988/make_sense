@@ -72,7 +72,7 @@
             position: relative;
             display: flex;
             background-color: $colorAtlantis;
-            color: black;
+            
             height: 200px;
             width: 300px;
             border-radius: 100px;  
@@ -85,25 +85,27 @@
             box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
             -webkit-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
             -moz-box-shadow: 2px 6px 13px -7px rgba(0,0,0,0.75);
+            text-decoration: none;
         
-
-            img {
-                width: 90px;
-                object-fit: contain;
-                padding-left: 20px;
-            }
-            
-            p {
+                       p {
                 margin: auto;
             }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
         }
 
         &__btn:hover {
             background-color: white;
-            color: $colorAtlantis;
+            
             box-shadow: 2px 6px 13px -7px rgb(193, 233, 78);
             -webkit-box-shadow: 2px 6px 13px -7px rgb(193, 233, 78);
             -moz-box-shadow: 2px 6px 13px -7px rgb(193, 233, 78);
+            a {
+            color: $colorAtlantis;
+            }
         
         }
 }

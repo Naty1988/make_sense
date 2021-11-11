@@ -1,0 +1,46 @@
+@import "./variables";
+
+/*agua urbana*/
+.itemsa__fila__txt{
+    text-decoration: none;
+    color: #63C6C6;
+}
+
+.retoa__{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px rgb(37, 37, 37);
+    border-radius: 20px;
+    background-color:#63C6C6;
+    background-image: linear-gradient( to right, #63c6c6, rgb(181, 233, 233));
+    margin-left: 10%;
+    margin: 3%;
+}
+.retoa__:hover{
+    transform:scale(1.05,1.05);
+}
+.retoa__img{
+    display: grid;
+    grid-row: 1/3;
+    background-color: white;
+    align-content: center;
+}
+
+.retoa__titulo{
+    font-size: 30px;
+    padding: 10px;
+
+}
+.retoa__fecha{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: rgb(37, 37, 37);
+}
+.retoa__parrafo{
+    grid-row: 2 span 2;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(37, 37, 37);
+}
