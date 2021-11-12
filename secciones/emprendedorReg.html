@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google Sign In -->
+    <meta name="google-signin-client_id" content="139953867625-n23hp2d3phoic79nkipfv3012pe7jomb.apps.googleusercontent.com">
+
     <!-- Bootstrap -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -147,9 +150,10 @@
             </div>
 
             <div class="hero2__btn">
-                <img src="https://www.pngkey.com/png/detail/11-116295_google-garage-transparent-background-google-logo.png"
+                <!-- <img src="https://www.pngkey.com/png/detail/11-116295_google-garage-transparent-background-google-logo.png"
                     alt="">
-                <p> <a href="../secciones/nuevoReto.html"> Accedé con Google</a></p>
+                <p> <a href="../secciones/nuevoReto.html"> Accedé con Google</a></p> -->
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
             </div>
         </div>
     </section>
@@ -239,6 +243,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script src="../main.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 
 </body>
