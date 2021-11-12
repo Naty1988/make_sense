@@ -1582,7 +1582,7 @@
   width: 250px;
 }
 
-.encabezado__logo {
+.encabezadoAgua__logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1591,31 +1591,31 @@
           justify-content: center;
 }
 
-.encabezado__logoEmpresa {
+.encabezadoAgua__logoEmpresa {
   -o-object-fit: cover;
      object-fit: cover;
   width: 250px;
 }
 
-.encabezado__reto {
-  background-color: lightblue;
+.encabezadoAgua__reto {
+  background-color: #63C6C6;
   border-radius: 30px;
   font-size: 1.5rem;
   height: 100%;
   text-align: center;
 }
 
-.encabezado__detalle {
+.encabezadoAgua__detalle {
   font-size: 1.5rem;
 }
 
-.encabezado__detalleFecha {
+.encabezadoAgua__detalleFecha {
   color: gray;
   text-align: center;
 }
 
-.comentario {
-  background-color: lightgreen;
+.comentarioAgua {
+  background-color: #d8d7d7;
   border-radius: 20px;
   height: 100px;
   padding-left: 20px;
@@ -1624,13 +1624,13 @@
   font-size: 1.2rem;
 }
 
-.comentario__nombre {
+.comentarioAgua__nombre {
   color: #0C3944;
 }
 
 .preguntasAgua {
   padding-top: 20px;
-  background-color: lightskyblue;
+  background-color: #63C6C6;
   border-radius: 30px;
   font-size: 1.2rem;
   height: 100%;
@@ -1648,7 +1648,7 @@
   width: 10px;
 }
 
-.txt__caja {
+.txtAgua__caja {
   width: 100%;
   height: 200px;
   box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
@@ -1657,7 +1657,358 @@
   margin-bottom: 20px;
 }
 
-.txt__btn {
+.txtAgua__btn {
+  background-color: #63C6C6;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+}
+
+.txtAgua__btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tituloForoAlimentacion {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.tituloForoAlimentacion__txt {
+  font-size: 5rem;
+  color: white;
+  background-color: #0C3944;
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloForoAlimentacion__img {
+  width: 250px;
+}
+
+.encabezadoAlimentacion__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezadoAlimentacion__logoEmpresa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.encabezadoAlimentacion__reto {
+  background-color: #FCF6A0;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.encabezadoAlimentacion__detalle {
+  font-size: 1.5rem;
+}
+
+.encabezadoAlimentacion__detalleFecha {
+  color: gray;
+  text-align: center;
+}
+
+.comentarioAlimentacion {
+  background-color: #d8d7d7;
+  border-radius: 20px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.comentarioAlimentacion__nombre {
+  color: #0C3944;
+}
+
+.preguntasAlimentacion {
+  padding-top: 20px;
+  background-color: #FCF6A0;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.preguntasAlimentacion__pad {
+  margin-bottom: 40px;
+}
+
+.preguntasAlimentacion__bold {
+  font-weight: bold;
+}
+
+.preguntasAlimentacion__pastilla {
+  width: 10px;
+}
+
+.txtAlimentacion__caja {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.txtAlimentacion__btn {
+  background-color: #FCF6A0;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+}
+
+.txtAlimentacion__btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tituloForoConsumo {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.tituloForoConsumo__txt {
+  font-size: 5rem;
+  color: white;
+  background-color: #0C3944;
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloForoConsumo__img {
+  width: 250px;
+}
+
+.encabezadoConsumo__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezadoConsumo__logoEmpresa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.encabezadoConsumo__reto {
+  background-color: #70AF90;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.encabezadoConsumo__detalle {
+  font-size: 1.5rem;
+}
+
+.encabezadoConsumo__detalleFecha {
+  color: gray;
+  text-align: center;
+}
+
+.comentarioConsumo {
+  background-color: #d8d7d7;
+  border-radius: 20px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.comentarioConsumo__nombre {
+  color: #0C3944;
+}
+
+.preguntasConsumo {
+  padding-top: 20px;
+  background-color: #70AF90;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.preguntasConsumo__pad {
+  margin-bottom: 40px;
+}
+
+.preguntasConsumo__bold {
+  font-weight: bold;
+}
+
+.preguntasConsumo__pastilla {
+  width: 10px;
+}
+
+.txtConsumo__caja {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.txtConsumo__btn {
+  background-color: #70AF90;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+}
+
+.txtConsumo__btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tituloForoDiseno {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.tituloForoDiseno__txt {
+  font-size: 5rem;
+  color: white;
+  background-color: #0C3944;
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloForoDiseno__img {
+  width: 250px;
+}
+
+.encabezadoDiseno__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezadoDiseno__logoEmpresa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.encabezadoDiseno__reto {
+  background-color: #196C84;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.encabezadoDiseno__detalle {
+  font-size: 1.5rem;
+}
+
+.encabezadoDiseno__detalleFecha {
+  color: gray;
+  text-align: center;
+}
+
+.comentarioDiseno {
+  background-color: #d8d7d7;
+  border-radius: 20px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.comentarioDiseno__nombre {
+  color: #0C3944;
+}
+
+.preguntasDiseno {
+  padding-top: 20px;
+  background-color: #196C84;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.preguntasDiseno__pad {
+  margin-bottom: 40px;
+}
+
+.preguntasDiseno__bold {
+  font-weight: bold;
+}
+
+.preguntasDiseno__pastilla {
+  width: 10px;
+}
+
+.txtDiseno__caja {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.txtDiseno__btn {
   background-color: #196C84;
   width: 120px;
   height: 40px;
@@ -1669,7 +2020,358 @@
   padding-bottom: 20px;
 }
 
-.txt__btn a {
+.txtDiseno__btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tituloForoEnergia {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.tituloForoEnergia__txt {
+  font-size: 5rem;
+  color: white;
+  background-color: #0C3944;
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloForoEnergia__img {
+  width: 250px;
+}
+
+.encabezadoEnergia__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezadoEnergia__logoEmpresa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.encabezadoEnergia__reto {
+  background-color: #C1E94E;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.encabezadoEnergia__detalle {
+  font-size: 1.5rem;
+}
+
+.encabezadoEnergia__detalleFecha {
+  color: gray;
+  text-align: center;
+}
+
+.comentarioEnergia {
+  background-color: #d8d7d7;
+  border-radius: 20px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.comentarioEnergia__nombre {
+  color: #0C3944;
+}
+
+.preguntasEnergia {
+  padding-top: 20px;
+  background-color: #C1E94E;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.preguntasEnergia__pad {
+  margin-bottom: 40px;
+}
+
+.preguntasEnergia__bold {
+  font-weight: bold;
+}
+
+.preguntasEnergia__pastilla {
+  width: 10px;
+}
+
+.txtEnergia__caja {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.txtEnergia__btn {
+  background-color: #C1E94E;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+}
+
+.txtEnergia__btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tituloForoMovilidad {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.tituloForoMovilidad__txt {
+  font-size: 5rem;
+  color: white;
+  background-color: #0C3944;
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloForoMovilidad__img {
+  width: 250px;
+}
+
+.encabezadoMovilidad__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezadoMovilidad__logoEmpresa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.encabezadoMovilidad__reto {
+  background-color: #EA4335;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.encabezadoMovilidad__detalle {
+  font-size: 1.5rem;
+}
+
+.encabezadoMovilidad__detalleFecha {
+  color: gray;
+  text-align: center;
+}
+
+.comentarioMovilidad {
+  background-color: #d8d7d7;
+  border-radius: 20px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.comentarioMovilidad__nombre {
+  color: #0C3944;
+}
+
+.preguntasMovilidad {
+  padding-top: 20px;
+  background-color: #EA4335;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.preguntasMovilidad__pad {
+  margin-bottom: 40px;
+}
+
+.preguntasMovilidad__bold {
+  font-weight: bold;
+}
+
+.preguntasMovilidad__pastilla {
+  width: 10px;
+}
+
+.txtMovilidad__caja {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.txtMovilidad__btn {
+  background-color: #EA4335;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+}
+
+.txtMovilidad__btn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tituloForoTejido {
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+.tituloForoTejido__txt {
+  font-size: 5rem;
+  color: white;
+  background-color: #0C3944;
+  width: 300px;
+  height: 100px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloForoTejido__img {
+  width: 250px;
+}
+
+.encabezadoTejido__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.encabezadoTejido__logoEmpresa {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 250px;
+}
+
+.encabezadoTejido__reto {
+  background-color: #F3976B;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  height: 100%;
+  text-align: center;
+}
+
+.encabezadoTejido__detalle {
+  font-size: 1.5rem;
+}
+
+.encabezadoTejido__detalleFecha {
+  color: gray;
+  text-align: center;
+}
+
+.comentarioTejido {
+  background-color: #d8d7d7;
+  border-radius: 20px;
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.comentarioTejido__nombre {
+  color: #0C3944;
+}
+
+.preguntasTejido {
+  padding-top: 20px;
+  background-color: #F3976B;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  height: 100%;
+}
+
+.preguntasTejido__pad {
+  margin-bottom: 40px;
+}
+
+.preguntasTejido__bold {
+  font-weight: bold;
+}
+
+.preguntasTejido__pastilla {
+  width: 10px;
+}
+
+.txtTejido__caja {
+  width: 100%;
+  height: 200px;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  margin-bottom: 20px;
+}
+
+.txtTejido__btn {
+  background-color: #F3976B;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
+  padding-bottom: 20px;
+}
+
+.txtTejido__btn a {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
