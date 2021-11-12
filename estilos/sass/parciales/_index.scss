@@ -149,20 +149,27 @@
     &__titulo {
         display: block;
         background-color: white;
-        height: 10vh;
+        height: auto;
         
         h2{
             font-size: $letraTituloGrande;
             color: $colorBlue;
+            font-weight: bolder;
+            padding-left: 200px;
+            padding-top: 100px;
+            padding-bottom: 40px;
         }
     }
     
     &__img {
-        width: 150px;
+        width: 200px;
     }
 
     &__cajaDiv {
         height: 175px;
+        display: flex;
+    
+    align-items: center;
     }
 
     &__caja {
@@ -178,8 +185,13 @@
             color: $colorBlue;
             font-weight: bold;
             text-align: center;
+
+            
         }
     }
+}
+a {
+    text-decoration: none;
 }
 
 // Faqs
@@ -250,6 +262,10 @@
         width: 200px;
         height: 40px;
         text-align: center;
+
+        a { 
+        color: black;
+        }
     }
     &__btn:hover {
         background-color: white;
