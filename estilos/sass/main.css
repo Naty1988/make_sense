@@ -436,6 +436,58 @@ a {
   color: #70AF90;
 }
 
+@media (max-width: 768px) {
+  .hero__txWhite {
+    font-size: 4rem;
+    top: 100px;
+  }
+  .hero__txBroom {
+    font-size: 4rem;
+  }
+  .hero__parrafo {
+    font-size: 1rem;
+    top: 100px;
+  }
+  .hero__cajaBoton {
+    top: 120px;
+  }
+  .hero__botonCiudadano {
+    height: 50px;
+    width: 140px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .hero__botonEmprendedor {
+    height: 50px;
+    width: 140px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .tarjeta__titulo h2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .tarjeta {
+    display: block;
+    height: 100%;
+  }
+  .tarjeta__caja {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .faq {
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .faq__titulo {
+    text-align: center;
+  }
+}
+
 .foro {
   width: 100vw;
   background-color: yellow;
@@ -1117,60 +1169,6 @@ a {
   margin-right: 40px;
 }
 
-.formularioDatos {
-  width: 70%;
-  margin-bottom: 80px;
-}
-
-.formularioDatos label {
-  display: block;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 20px 0 7px 0;
-}
-
-.formularioDatos input {
-  height: 50px;
-  width: 300px;
-  font-size: 1.2rem;
-  padding: 20px;
-  border-radius: 3px;
-  border: solid grey 1px;
-}
-
-.formularioDatos__finSesion {
-  border: solid 1px orange;
-  border-radius: 10px;
-  height: 50px;
-  width: 250px;
-  margin-top: 20px;
-  margin-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.formularioDatos__finSesion a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: black;
-}
-
-.formularioDatos__SN {
-  height: 100%;
-  width: 100%;
-}
-
-.formularioDatos__junto {
-  display: inline;
-}
-
 /*agua urbana*/
 .itemsa__fila__txt {
   text-decoration: none;
@@ -1732,7 +1730,7 @@ a {
 }
 
 .txtAgua__btn {
-  background-color: #63C6C6;
+  background-color: rgb 99, 198, 198, 0.15;
   width: 120px;
   height: 40px;
   border-radius: 50px;
@@ -2471,7 +2469,7 @@ a {
 .titulo__o {
   width: 80%;
   height: 800px;
-  background-image: url(../multimedia/frijolcortado.jpeg);
+  background-image: url(../../img/frijolcortado.jpeg);
   background-size: 800px 600px;
   background-repeat: no-repeat;
 }
@@ -2482,6 +2480,7 @@ a {
   text-align: left;
   padding-left: 12%;
   color: #0b3844;
+  padding-top: 150px;
 }
 
 .section__uno__o {
@@ -2864,5 +2863,76 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.formularioDatos {
+  width: 70%;
+  margin-bottom: 80px;
+}
+
+.formularioDatos label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px 0 20px 0;
+}
+
+.formularioDatos input {
+  height: 50px;
+  width: 300px;
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 3px;
+  border: solid grey 1px;
+}
+
+.formularioDatos__finSesion {
+  border: solid 1px orange;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formularioDatos__finSesion a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.formularioDatos__SN {
+  height: 100%;
+  width: 100%;
+}
+
+.formularioDatos__junto {
+  display: inline;
+}
+
+.subir__archivo input {
+  height: 50px;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0px;
+  border: white;
+}
+
+#formRadio {
+  height: 20px;
+  width: 50px;
+}
+
+.lado {
+  display: inline;
 }
 /*# sourceMappingURL=main.css.map */

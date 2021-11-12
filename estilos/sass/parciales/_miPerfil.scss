@@ -8,7 +8,7 @@ label {
     display: block;
     font-size: $letraNormal;
     font-weight: bold;
-    padding: 20px 0 7px 0;
+    padding: 20px 0 20px 0;
 }
 input {
     height: 50px;
@@ -45,3 +45,24 @@ input {
     }
 
 }
+.subir {
+    &__archivo {
+      input {
+        height: 50px;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0px;
+        border: white;
+    }}
+}
+
+#formRadio {
+    
+        height: 20px;
+        width: 50px;
+
+}
+.lado {
+    display: inline;
+}
+   
