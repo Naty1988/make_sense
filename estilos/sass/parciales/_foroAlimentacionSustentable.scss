@@ -39,7 +39,7 @@
      }
     
      &__reto {
-         background-color: $colorCategoriaAlimentacion;
+         background-color:  #FCF6A055;
          border-radius: 30px;
          font-size: $letraSubtitulo;
          height: 100%;
@@ -70,16 +70,16 @@
         }
     
         .preguntasAlimentacion {
-    padding-top: 20px;
-    background-color: $colorCategoriaAlimentacion;
-    border-radius: 30px;
-    font-size: $letraNormal;
-    height: 100%;
+            padding-top: 20px;
+            background-color:  #FCF6A055;
+            border-radius: 30px;
+            font-size: $letraNormal;
+            height: 100%;
+            
     
-    
-    &__pad {
-        margin-bottom: 40px;
-    }
+            &__pad {
+                margin-bottom: 40px;
+            }
             &__bold {
               font-weight: bold;
             }

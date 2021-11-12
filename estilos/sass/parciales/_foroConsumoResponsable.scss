@@ -41,7 +41,7 @@
      }
     
      &__reto {
-         background-color: $colorCategoriaConsumo;
+         background-color: #70AF9055;
          border-radius: 30px;
          font-size: $letraSubtitulo;
          height: 100%;
@@ -75,7 +75,7 @@
         .preguntasConsumo
          {
     padding-top: 20px;
-    background-color: $colorCategoriaConsumo;
+    background-color: #70AF9055;
     border-radius: 30px;
     font-size: $letraNormal;
     height: 100%;
@@ -120,7 +120,7 @@
            
               a {
                   text-decoration: none;
-                  color: white;
+                  color: black;
               font-size: $letraSubtitulo;
               font-weight: bold;
               }
