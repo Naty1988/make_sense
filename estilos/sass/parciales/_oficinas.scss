@@ -1,0 +1,124 @@
+@import "./variables";
+
+
+/*oficinas*/
+/*seccion 1: titulo, subtitulo y parrafo (img de fondo)*/
+.titulo__o {
+    width: 80%;
+    height: 800px;
+    background-image: url(../multimedia/frijolcortado.jpeg);
+    background-size: 800px 600px;
+    background-repeat: no-repeat;  
+}
+.titulo__o__titulo {
+    font-size: 80px;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 12%;
+    color: #0b3844;
+}
+.section__uno__o {
+    font-size: 45px;
+    padding-left: 12%;
+    text-align: left;
+    color: #0b3844;
+}
+.section__uno__o__parrafo{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 12%;
+
+}
+
+/*items make sense*/
+.section__dos__o {
+    width: 80%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap:20px;
+    font-size: 40px;
+    margin-left: 10%;
+    margin-bottom: 40px;
+}
+.section__dos__o__img{
+    float: left;
+    width: 35px;
+    height: 12px;
+    margin-top: 28px;
+    padding-right: 10px;
+}
+.listadolugares {
+    color: black;
+    padding-bottom: 20px;
+}
+
+/*lista de contactos*/
+
+.section__tres__o{
+    height: auto;
+    width: 100%;
+}
+.section__tres__o__celeste{
+    height: auto;
+    width: 100%;
+    background-color: #e4e9eb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+}
+.section__tres__o__blanco{
+    height: auto;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+#global{
+    font-size: 30px;
+    text-decoration:underline;
+    color:#196C84;
+    padding-left: 30px;
+}
+
+#francia{
+    font-size: 30px;
+    text-decoration:underline;
+    color:#196C84;
+    padding-left: 30px;
+}
+#libano{
+    font-size: 30px;
+    text-decoration:underline;
+    color:#196C84;
+    padding-left: 30px;
+}
+#mexico{
+    font-size: 30px;
+    text-decoration:underline;
+    color:#196C84;
+    padding-left: 30px;
+}
+#africa{
+    font-size: 30px;
+    text-decoration:underline;
+    color:#196C84;
+    padding-left: 30px;
+}
+#peru{
+    font-size: 30px;
+    text-decoration:underline;
+    color:#196C84;
+    padding-left: 30px;
+}
+#filipinas{
+    font-size: 30px;
+    text-decoration:underline;
+    color:#196C84;
+    padding-left: 30px;
+}

@@ -41,7 +41,6 @@
   height: 100%;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding-left: 40px;
 }
 
 .subMenu__junto {
@@ -754,7 +753,7 @@
 }
 
 .calendario {
-  height: 100vh;
+  height: 130vh;
 }
 
 .calendario__titulo {
@@ -777,12 +776,20 @@
 }
 
 .calendario__caja {
-  width: 300px;
-  height: 300px;
-  border: solid 2px blue;
+  width: 450px;
+  height: 450px;
   margin: auto;
   padding-bottom: 20px;
   margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .calendario__agenda1 {
@@ -2432,5 +2439,405 @@
   color: white;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+/*oficinas*/
+/*seccion 1: titulo, subtitulo y parrafo (img de fondo)*/
+.titulo__o {
+  width: 80%;
+  height: 800px;
+  background-image: url(../multimedia/frijolcortado.jpeg);
+  background-size: 800px 600px;
+  background-repeat: no-repeat;
+}
+
+.titulo__o__titulo {
+  font-size: 80px;
+  padding-top: 30px;
+  text-align: left;
+  padding-left: 12%;
+  color: #0b3844;
+}
+
+.section__uno__o {
+  font-size: 45px;
+  padding-left: 12%;
+  text-align: left;
+  color: #0b3844;
+}
+
+.section__uno__o__parrafo {
+  font-size: 30px;
+  text-align: left;
+  padding-left: 12%;
+}
+
+/*items make sense*/
+.section__dos__o {
+  width: 80%;
+  height: 300px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 20px;
+  font-size: 40px;
+  margin-left: 10%;
+  margin-bottom: 40px;
+}
+
+.section__dos__o__img {
+  float: left;
+  width: 35px;
+  height: 12px;
+  margin-top: 28px;
+  padding-right: 10px;
+}
+
+.listadolugares {
+  color: black;
+  padding-bottom: 20px;
+}
+
+/*lista de contactos*/
+.section__tres__o {
+  height: auto;
+  width: 100%;
+}
+
+.section__tres__o__celeste {
+  height: auto;
+  width: 100%;
+  background-color: #e4e9eb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+.section__tres__o__blanco {
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+#global {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #196C84;
+  padding-left: 30px;
+}
+
+#francia {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #196C84;
+  padding-left: 30px;
+}
+
+#libano {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #196C84;
+  padding-left: 30px;
+}
+
+#mexico {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #196C84;
+  padding-left: 30px;
+}
+
+#africa {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #196C84;
+  padding-left: 30px;
+}
+
+#peru {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #196C84;
+  padding-left: 30px;
+}
+
+#filipinas {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #196C84;
+  padding-left: 30px;
+}
+
+/*rol ciudadano*/
+.tituloRolCiudadano__ {
+  width: 70vw;
+  height: 320px;
+  background-color: #F3976B;
+  border-radius: 5px 150px 150px 5px;
+  padding-top: 40px;
+}
+
+.titulo__ciudadano {
+  font-size: 80px;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.section__uno {
+  width: 70%;
+  height: 300px;
+  background-color: #f1dcdc;
+  border-radius: 150px;
+  font-size: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 20%;
+}
+
+.section__dos {
+  width: 70%;
+  height: 200px;
+  font-size: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  margin-left: 15%;
+}
+
+.section__tres {
+  width: 40%;
+  height: 30px;
+  background-color: #E36164;
+  color: white;
+  border-radius: 150px;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 30%;
+  padding: 4%;
+}
+
+.section__cuatro {
+  width: 100%;
+  height: 500px;
+}
+
+.section__cuatro__nube {
+  width: 95%;
+  height: 520px;
+  margin: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  background-image: url(../../../img/derecha.jpeg);
+  background-size: cover;
+  font-size: 35px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__cinco {
+  width: 50%;
+  height: 30px;
+  background-color: #E36164;
+  color: white;
+  border-radius: 150px;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 25%;
+  padding: 4%;
+}
+
+.section__seis {
+  width: 100%;
+  height: 700px;
+}
+
+.section__seis__nube__dos {
+  width: 95%;
+  height: 550px;
+  margin: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  background-image: url(../multimedia/izquierda.jpeg);
+  background-size: cover;
+  font-size: 35px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/*rol emprendedor*/
+.titulo__emprendedor {
+  width: 70%;
+  height: 320px;
+  background-color: #FCF6A0;
+  border-radius: 5px 150px 150px 5px;
+}
+
+.titulo__emprendedor__e {
+  font-size: 80px;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.section__uno__e {
+  width: 70%;
+  height: 300px;
+  background-color: #daebf0;
+  border-radius: 150px;
+  font-size: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 15%;
+}
+
+.section__dos__e {
+  width: 70%;
+  height: 200px;
+  font-size: 30px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+  margin-left: 15%;
+}
+
+.section__tres__e {
+  width: 40%;
+  height: 30px;
+  background-color: #FCF6A0;
+  color: black;
+  border-radius: 150px;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 25%;
+  padding: 4%;
+}
+
+.section__cuatro__e {
+  width: 100%;
+  height: 500px;
+}
+
+.section__cuatro__e__nube {
+  width: 95%;
+  height: 520px;
+  margin: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  background-image: url(../img/derechae.jpeg);
+  background-size: cover;
+  font-size: 35px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__cinco__e {
+  width: 70%;
+  height: 30px;
+  background-color: #FCF6A0;
+  color: black;
+  border-radius: 150px;
+  font-size: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 10%;
+  padding: 4%;
+}
+
+.section__seis__e {
+  width: 100%;
+  height: 700px;
+}
+
+.section__seis__e__nube__dos {
+  width: 95%;
+  height: 550px;
+  margin: 10px;
+  padding-top: 5px;
+  background-image: url(../multimedia/izquierdae.jpeg);
+  font-size: 35px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=main.css.map */

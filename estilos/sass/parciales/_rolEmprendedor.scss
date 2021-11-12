@@ -1,0 +1,109 @@
+@import "./variables";
+
+
+
+/*rol emprendedor*/
+
+.titulo__emprendedor{
+    width: 70%;
+    height: 320px;
+    background-color:#FCF6A0;
+    border-radius: 5px 150px 150px 5px;
+
+}
+.titulo__emprendedor__e{
+    font-size: 80px;
+    text-align:left;
+    padding-top: 5px;
+    padding-left: 30px;
+
+}
+
+.section__uno__e{
+    width: 70%;
+    height: 300px;
+    background-color: #daebf0;
+    border-radius: 150px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 15%;
+}
+.section__dos__e{
+    width: 70%;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 15%;
+
+}
+.section__tres__e{
+    width: 40%;
+    height: 30px;
+    background-color:#FCF6A0;
+    color:black;
+    border-radius: 150px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 25%;
+    padding: 4%;
+
+}
+
+.section__cuatro__e{
+    width: 100%;
+    height:500px;
+}
+.section__cuatro__e__nube{
+    width: 95%;
+    height: 520px;
+    margin: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    background-image: url(../img/derechae.jpeg);
+    background-size: cover;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.section__cinco__e{
+    width: 70%;
+    height: 30px;
+    background-color:#FCF6A0;
+    color:black;
+    border-radius: 150px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10%;
+    padding: 4%;
+}
+.section__seis__e{
+    width: 100%;
+    height:700px;
+}
+
+.section__seis__e__nube__dos{
+    width: 95%;
+    height: 550px;
+    margin: 10px;
+    padding-top: 5px;
+    background-image:url(../multimedia/izquierdae.jpeg);
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
