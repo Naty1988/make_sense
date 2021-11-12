@@ -1,0 +1,112 @@
+@import "./variables";
+
+/*rol ciudadano*/
+.tituloRolCiudadano__{
+    width: 70vw;
+    height: 320px;
+    background-color: #F3976B;
+    border-radius: 5px 150px 150px 5px;
+    padding-top: 40px;
+
+
+}
+.titulo__ciudadano{
+    font-size: 80px;
+    text-align:left;
+    padding-top: 5px;
+    padding-left: 30px;
+
+}
+
+.section__uno{
+    width: 70%;
+    height: 300px;
+    background-color: #f1dcdc;
+    border-radius: 150px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+}
+.section__dos{
+    width: 70%;
+    height: 200px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 15%;
+
+}
+.section__tres{
+    width: 40%;
+    height: 30px;
+    background-color: #E36164;
+    color: white;
+    border-radius: 150px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    padding: 4%;
+
+}
+
+.section__cuatro{
+    width: 100%;
+    height:500px;
+}
+.section__cuatro__nube{
+    width: 95%;
+    height: 520px;
+    margin: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    background-image: url(../../../img/derecha.jpeg);
+    background-size: cover;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.section__cinco{
+    width: 50%;
+    height: 30px;
+    background-color: #E36164;
+    color: white;
+    border-radius: 150px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 25%;
+    padding: 4%;
+}
+.section__seis{
+    width: 100%;
+    height:700px;
+}
+
+.section__seis__nube__dos{
+    width: 95%;
+    height: 550px;
+    margin: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    background-image: url(../multimedia/izquierda.jpeg);
+    background-size:cover;
+    font-size: 35px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
