@@ -1,7 +1,7 @@
 @import "./variables";
 
 
-.tituloForoAgua {
+.tituloForoMovilidad {
 width: 80%;
 padding-top: 100px;
 padding-bottom: 100px;
@@ -24,7 +24,7 @@ margin: auto;
 }
 }
 
-.encabezadoAgua{
+.encabezadoMovilidad {
 
     &__logo {
         display: flex;
@@ -40,7 +40,7 @@ margin: auto;
  }
 
  &__reto {
-     background-color: $colorCategoriaAgua;
+     background-color: $colorCategoriaMovilidad;
      border-radius: 30px;
      font-size: $letraSubtitulo;
      height: 100%;
@@ -56,7 +56,7 @@ margin: auto;
  }
 }
 
-.comentarioAgua {
+.comentarioMovilidad {
     background-color: $colorGris;
     border-radius: 20px;
     height: 100px;
@@ -70,9 +70,9 @@ margin: auto;
     }
     }
 
-    .preguntasAgua {
+    .preguntasMovilidad {
 padding-top: 20px;
-background-color: $colorCategoriaAgua;
+background-color: $colorCategoriaMovilidad;
 border-radius: 30px;
 font-size: $letraNormal;
 height: 100%;
@@ -90,7 +90,7 @@ height: 100%;
         }
     }
 
-    .txtAgua {
+    .txtMovilidad {
         
       &__caja {
           width: 100%;
@@ -102,7 +102,7 @@ height: 100%;
         
       } 
       &__btn {
-          background-color: $colorCategoriaAgua;
+          background-color: $colorCategoriaMovilidad;
           width: 120px;
           height: 40px;
           border-radius: 50px;          
