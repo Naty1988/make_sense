@@ -11,13 +11,28 @@
     background-repeat: no-repeat;  
 }
 .titulo__o__titulo {
-    font-size: 80px;
+   
     padding-top: 30px;
     text-align: left;
     padding-left: 12%;
     color: #0b3844;
     padding-top: 150px;
+  
+      
 }
+
+.titulo__o__titulo1 { 
+    font-size: $letraTituloGrande;
+    font-weight: bold;
+}
+
+.titulo__o__titulo2 { 
+    font-size: $letraSubtitulo;
+}
+.titulo__o__titulo3 { 
+    font-size: $letraNormal;
+}
+
 .section__uno__o {
     font-size: 45px;
     padding-left: 12%;

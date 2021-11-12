@@ -17,6 +17,9 @@
         font-weight: bold;
         text-align: center;
         margin: auto;
+        justify-content: space-around;
+    display: flex;
+    align-items: center;
     }
     
     &__img {

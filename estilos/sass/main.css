@@ -1648,6 +1648,14 @@ a {
   font-weight: bold;
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tituloForoAgua__img {
@@ -1767,6 +1775,14 @@ a {
   font-weight: bold;
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tituloForoAlimentacion__img {
@@ -1886,6 +1902,14 @@ a {
   font-weight: bold;
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tituloForoConsumo__img {
@@ -2005,6 +2029,14 @@ a {
   font-weight: bold;
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tituloForoDiseno__img {
@@ -2124,6 +2156,14 @@ a {
   font-weight: bold;
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tituloForoEnergia__img {
@@ -2243,6 +2283,14 @@ a {
   font-weight: bold;
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tituloForoMovilidad__img {
@@ -2362,6 +2410,14 @@ a {
   font-weight: bold;
   text-align: center;
   margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tituloForoTejido__img {
@@ -2475,12 +2531,24 @@ a {
 }
 
 .titulo__o__titulo {
-  font-size: 80px;
   padding-top: 30px;
   text-align: left;
   padding-left: 12%;
   color: #0b3844;
   padding-top: 150px;
+}
+
+.titulo__o__titulo1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.titulo__o__titulo2 {
+  font-size: 1.5rem;
+}
+
+.titulo__o__titulo3 {
+  font-size: 1.2rem;
 }
 
 .section__uno__o {
@@ -2605,7 +2673,12 @@ ul {
   height: 320px;
   background-color: #F3976B;
   border-radius: 5px 150px 150px 5px;
-  padding-top: 40px;
+  padding-top: 150px;
+}
+
+.tituloRolCiudadano__ h1 {
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 .titulo__ciudadano {
@@ -2649,7 +2722,7 @@ ul {
 }
 
 .section__tres {
-  width: 40%;
+  width: 50%;
   height: 30px;
   background-color: #E36164;
   color: white;
@@ -2665,6 +2738,7 @@ ul {
   margin-bottom: 40px;
   margin-left: 30%;
   padding: 4%;
+  text-align: center;
 }
 
 .section__cuatro {
@@ -2673,12 +2747,9 @@ ul {
 }
 
 .section__cuatro__nube {
-  width: 95%;
-  height: 520px;
-  margin: 35px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5px;
+  width: 90%;
+  height: 370px;
+  margin: auto;
   background-image: url(../../../img/derecha.jpeg);
   background-size: cover;
   font-size: 35px;
@@ -2716,13 +2787,13 @@ ul {
 }
 
 .section__seis__nube__dos {
-  width: 95%;
-  height: 550px;
-  margin: 20px;
+  width: 90%;
+  height: 440px;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 5px;
-  background-image: url(../multimedia/izquierda.jpeg);
+  background-image: url(../../../img/izquierda.jpeg);
   background-size: cover;
   font-size: 35px;
   text-align: center;
@@ -2734,12 +2805,22 @@ ul {
           align-items: center;
 }
 
+.negrita {
+  font-weight: bold;
+}
+
 /*rol emprendedor*/
 .titulo__emprendedor {
   width: 70%;
   height: 320px;
   background-color: #FCF6A0;
   border-radius: 5px 150px 150px 5px;
+  padding-top: 150px;
+}
+
+.titulo__emprendedor h1 {
+  font-size: 5rem;
+  font-weight: bold;
 }
 
 .titulo__emprendedor__e {
@@ -2783,7 +2864,7 @@ ul {
 }
 
 .section__tres__e {
-  width: 40%;
+  width: 50%;
   height: 30px;
   background-color: #FCF6A0;
   color: black;
@@ -2799,6 +2880,7 @@ ul {
   margin-bottom: 60px;
   margin-left: 25%;
   padding: 4%;
+  text-align: center;
 }
 
 .section__cuatro__e {
@@ -2808,12 +2890,11 @@ ul {
 
 .section__cuatro__e__nube {
   width: 95%;
-  height: 520px;
-  margin: 35px;
+  height: 400px;
+  margin: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 5px;
-  background-image: url(../img/derechae.jpeg);
+  background-image: url(../../../img/derechae.jpeg);
   background-size: cover;
   font-size: 35px;
   text-align: center;
@@ -2826,7 +2907,7 @@ ul {
 }
 
 .section__cinco__e {
-  width: 70%;
+  width: 60%;
   height: 30px;
   background-color: #FCF6A0;
   color: black;
@@ -2851,10 +2932,10 @@ ul {
 
 .section__seis__e__nube__dos {
   width: 95%;
-  height: 550px;
-  margin: 10px;
+  height: 400px;
+  margin: auto;
   padding-top: 5px;
-  background-image: url(../multimedia/izquierdae.jpeg);
+  background-image: url(../../../img/izquierdae.jpeg);
   font-size: 35px;
   text-align: center;
   display: -webkit-box;
@@ -2863,6 +2944,11 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-size: cover;
+}
+
+.negrita {
+  font-weight: bold;
 }
 
 .formularioDatos {

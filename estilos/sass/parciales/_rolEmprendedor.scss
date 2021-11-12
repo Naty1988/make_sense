@@ -9,7 +9,11 @@
     height: 320px;
     background-color:#FCF6A0;
     border-radius: 5px 150px 150px 5px;
-
+    padding-top: 150px;
+        h1 {
+            font-size: $letraTituloMuyGrande;
+            font-weight: bold;
+        }
 }
 .titulo__emprendedor__e{
     font-size: 80px;
@@ -44,7 +48,7 @@
 
 }
 .section__tres__e{
-    width: 40%;
+    width: 50%;
     height: 30px;
     background-color:#FCF6A0;
     color:black;
@@ -56,6 +60,7 @@
     margin-bottom: 60px;
     margin-left: 25%;
     padding: 4%;
+    text-align: center;
 
 }
 
@@ -65,12 +70,11 @@
 }
 .section__cuatro__e__nube{
     width: 95%;
-    height: 520px;
-    margin: 35px;
+    height: 400px;
+    margin: auto;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 5px;
-    background-image: url(../img/derechae.jpeg);
+    background-image: url(../../../img/derechae.jpeg);
     background-size: cover;
     font-size: 35px;
     text-align: center;
@@ -78,7 +82,7 @@
     align-items: center;
 }
 .section__cinco__e{
-    width: 70%;
+    width: 60%;
     height: 30px;
     background-color:#FCF6A0;
     color:black;
@@ -98,12 +102,16 @@
 
 .section__seis__e__nube__dos{
     width: 95%;
-    height: 550px;
-    margin: 10px;
+    height: 400px;
+    margin: auto;
     padding-top: 5px;
-    background-image:url(../multimedia/izquierdae.jpeg);
+    background-image:url(../../../img/izquierdae.jpeg);
     font-size: 35px;
     text-align: center;
     display: flex;
     align-items: center;
+    background-size: cover;
+}
+.negrita {
+    font-weight: bold;
 }

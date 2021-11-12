@@ -6,7 +6,11 @@
     height: 320px;
     background-color: #F3976B;
     border-radius: 5px 150px 150px 5px;
-    padding-top: 40px;
+    padding-top: 150px;
+    h1 {
+        font-size: $letraTituloMuyGrande;
+        font-weight: bold;
+    }
 
 
 }
@@ -43,7 +47,7 @@
 
 }
 .section__tres{
-    width: 40%;
+    width: 50%;
     height: 30px;
     background-color: #E36164;
     color: white;
@@ -55,6 +59,7 @@
     margin-bottom: 40px;
     margin-left: 30%;
     padding: 4%;
+    text-align: center;
 
 }
 
@@ -63,12 +68,9 @@
     height:500px;
 }
 .section__cuatro__nube{
-    width: 95%;
-    height: 520px;
-    margin: 35px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
+    width: 90%;
+    height: 370px;
+    margin: auto;
     background-image: url(../../../img/derecha.jpeg);
     background-size: cover;
     font-size: 35px;
@@ -96,17 +98,19 @@
 }
 
 .section__seis__nube__dos{
-    width: 95%;
-    height: 550px;
-    margin: 20px;
+    width: 90%;
+    height: 440px;
+    margin: auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
-    background-image: url(../multimedia/izquierda.jpeg);
+    background-image: url(../../../img/izquierda.jpeg);
     background-size:cover;
     font-size: 35px;
     text-align: center;
     display: flex;
     align-items: center;
 }
-
+.negrita {
+    font-weight: bold;
+}
