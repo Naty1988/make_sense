@@ -361,8 +361,8 @@
 }
 
 .contacto__btn {
-  background-color: #e0dfdf;
-  border-radius: 10px;
+  background-color: #d8d7d7;
+  border-radius: 20px;
   box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 6px 13px -7px rgba(0, 0, 0, 0.75);
@@ -370,6 +370,11 @@
   width: 200px;
   height: 40px;
   text-align: center;
+}
+
+.contacto__btn:hover {
+  background-color: white;
+  color: #70AF90;
 }
 
 .foro {
@@ -1095,6 +1100,15 @@
   text-decoration: none;
   font-size: 1.2rem;
   color: black;
+}
+
+.formularioDatos__SN {
+  height: 100%;
+  width: 100%;
+}
+
+.formularioDatos__junto {
+  display: inline;
 }
 
 /*agua urbana*/
