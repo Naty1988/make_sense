@@ -1169,60 +1169,6 @@ a {
   margin-right: 40px;
 }
 
-.formularioDatos {
-  width: 70%;
-  margin-bottom: 80px;
-}
-
-.formularioDatos label {
-  display: block;
-  font-size: 1.2rem;
-  font-weight: bold;
-  padding: 20px 0 7px 0;
-}
-
-.formularioDatos input {
-  height: 50px;
-  width: 300px;
-  font-size: 1.2rem;
-  padding: 20px;
-  border-radius: 3px;
-  border: solid grey 1px;
-}
-
-.formularioDatos__finSesion {
-  border: solid 1px orange;
-  border-radius: 10px;
-  height: 50px;
-  width: 250px;
-  margin-top: 20px;
-  margin-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.formularioDatos__finSesion a {
-  text-decoration: none;
-  font-size: 1.2rem;
-  color: black;
-}
-
-.formularioDatos__SN {
-  height: 100%;
-  width: 100%;
-}
-
-.formularioDatos__junto {
-  display: inline;
-}
-
 /*agua urbana*/
 .itemsa__fila__txt {
   text-decoration: none;
@@ -2916,5 +2862,67 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.formularioDatos {
+  width: 70%;
+  margin-bottom: 80px;
+}
+
+.formularioDatos label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px 0 7px 0;
+}
+
+.formularioDatos input {
+  height: 50px;
+  width: 300px;
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 3px;
+  border: solid grey 1px;
+}
+
+.formularioDatos__finSesion {
+  border: solid 1px orange;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.formularioDatos__finSesion a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.formularioDatos__SN {
+  height: 100%;
+  width: 100%;
+}
+
+.formularioDatos__junto {
+  display: inline;
+}
+
+.subir__archivo input {
+  height: 50px;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0px;
+  border: white;
 }
 /*# sourceMappingURL=main.css.map */

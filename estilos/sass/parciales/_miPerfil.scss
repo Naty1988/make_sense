@@ -45,3 +45,15 @@ input {
     }
 
 }
+.subir {
+    &__archivo {
+      input {
+        height: 50px;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 0px;
+        border: white;
+    }}
+}
+
+   
