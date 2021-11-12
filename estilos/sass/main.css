@@ -436,6 +436,58 @@ a {
   color: #70AF90;
 }
 
+@media (max-width: 768px) {
+  .hero__txWhite {
+    font-size: 4rem;
+    top: 100px;
+  }
+  .hero__txBroom {
+    font-size: 4rem;
+  }
+  .hero__parrafo {
+    font-size: 1rem;
+    top: 100px;
+  }
+  .hero__cajaBoton {
+    top: 120px;
+  }
+  .hero__botonCiudadano {
+    height: 50px;
+    width: 140px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .hero__botonEmprendedor {
+    height: 50px;
+    width: 140px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .tarjeta__titulo h2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .tarjeta {
+    display: block;
+    height: 100%;
+  }
+  .tarjeta__caja {
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .faq {
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .faq__titulo {
+    text-align: center;
+  }
+}
+
 .foro {
   width: 100vw;
   background-color: yellow;
@@ -1732,7 +1784,7 @@ a {
 }
 
 .txtAgua__btn {
-  background-color: #63C6C6;
+  background-color: rgb 99, 198, 198, 0.15;
   width: 120px;
   height: 40px;
   border-radius: 50px;
