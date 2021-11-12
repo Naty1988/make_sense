@@ -2,11 +2,43 @@
 
 // Menu - Nav
 
+.subMenu {
+ height: 40px;
+ width: 100vw;
+ position: fixed;
+ z-index: 2; 
+ background-color: white; 
+ img {
+     width: 20px;
+     display: inline;
+ }
+ p {
+     display: inline;
+ }
+
+ &__alto {
+    height: 100%;
+    flex-direction: column;
+ }
+ &__division {
+     display: flex;
+     height: 100%;
+     align-content: center;
+         padding-left: 40px;
+ }
+ 
+ &__junto {
+     display: flex;
+ }
+
+}
+
 .menu {
     position: fixed;
     width: auto;
     z-index: 3;
     margin-right: 20px;
+    padding-top: 40px;
 
     &__img {
         width: 150px;
